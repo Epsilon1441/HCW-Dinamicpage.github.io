@@ -1,0 +1,79 @@
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: white;
+    text-align: center;
+    z-index: 1; /* Asegura que el texto esté por encima del video */
+    margin-top: 5%;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    overflow: hidden; /* Evita que el contenido se desborde */
+}
+ 
+
+.background-video{
+  
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute; /* Asegura que el video se posicione correctamente */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra todo el contenedor sin distorsionarse */
+}
+.bienvenido{
+    justify-content: center !important;
+    justify-items: center !important;
+    text-align: center !important;
+    margin-top: -25% ;
+
+}
+
+.bienvenidosubexto{
+    justify-content: center !important;
+    justify-items: center !important;
+    text-align: center !important;
+}
+ 
+
+ 
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+ 
+
+
+
+
+  .custom-button {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Permitir que se ajuste al contenido */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 48px 2px; /* Margen */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+    scale: 1.1;
+}
